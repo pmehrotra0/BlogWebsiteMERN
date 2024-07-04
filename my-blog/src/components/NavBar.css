@@ -1,0 +1,28 @@
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    height: 20px;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+    width: 51px;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+li:hover{
+    background-color: black;
+    a{
+        color: azure;
+    }
+}
+nav{
+    border-bottom: 4px solid black;
+}
